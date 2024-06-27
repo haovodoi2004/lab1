@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "166830900435",
+    "firebase_url": "https://fir-cfa3b-default-rtdb.firebaseio.com",
+    "project_id": "fir-cfa3b",
+    "storage_bucket": "fir-cfa3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166830900435:android:d997aad0d1f4b601d20026",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBokSNjKRdz8MY8jpShajZVvuomCTM9lAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166830900435:android:a7b643bcc8a839f1d20026",
+        "android_client_info": {
+          "package_name": "com.example.lab1_ph45181"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBokSNjKRdz8MY8jpShajZVvuomCTM9lAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166830900435:android:c815a7279ca972ccd20026",
+        "android_client_info": {
+          "package_name": "fpoly.duan1.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBokSNjKRdz8MY8jpShajZVvuomCTM9lAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
