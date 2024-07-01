@@ -113,6 +113,8 @@ String verification;
                             FirebaseUser user = task.getResult().getUser();
                             // Update UI
                             Intent intent=new Intent(ma_otp.this,Logout.class);
+                            startActivity(intent);
+                            Toast.makeText(ma_otp.this, "xac minh thanh cong", Toast.LENGTH_SHORT).show();
                         } else {
                             // Sign in failed, display a message and update the UI
                             Log.w(TAG, "signInWithCredential:failure", task.getException());

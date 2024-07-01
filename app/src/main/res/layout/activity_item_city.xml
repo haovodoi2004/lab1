@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    tools:context=".ItemCity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        tools:layout_editor_absoluteY="41dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="179dp"
+            tools:layout_editor_absoluteY="140dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="198dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Xóa"
+            android:id="@+id/bt"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

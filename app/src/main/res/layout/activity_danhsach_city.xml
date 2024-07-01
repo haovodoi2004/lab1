@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DanhsachCity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh sách thành phố"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:id="@+id/recy"
+        />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm thông tin"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="29dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
